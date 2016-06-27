@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger, SWCellState)
 - (BOOL)swipeableTableViewCell:(SWTableViewCell *)cell canSwipeToState:(SWCellState)state;
 - (void)swipeableTableViewCellDidEndScrolling:(SWTableViewCell *)cell;
 - (void)swipeableTableViewCell:(SWTableViewCell *)cell didScroll:(UIScrollView *)scrollView;
-- (void)swipeableTableViewCellDidDidScrolling:(SWTableViewCell *)cell;
+- (void)swipeableTableViewCellDidScrolling:(SWTableViewCell *)cell;
 
 @end
 
