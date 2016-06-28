@@ -290,7 +290,7 @@
 
 - (void)swipeableTableViewCellRightUtiltyDidScrolling:(SWTableViewCell *)cell
 {
-    NSLog(@"Scrolling Right Utilty");
+    NSLog(@"Scrolling Right Utility");
 }
 
 
