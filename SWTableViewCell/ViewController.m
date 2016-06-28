@@ -288,5 +288,10 @@
     return YES;
 }
 
+- (void)swipeableTableViewCellRightUtiltyDidScrolling:(SWTableViewCell *)cell
+{
+    NSLog(@"Scrolling Right Utilty");
+}
+
 
 @end

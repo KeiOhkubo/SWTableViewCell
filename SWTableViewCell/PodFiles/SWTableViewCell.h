@@ -33,6 +33,7 @@ typedef NS_ENUM(NSInteger, SWCellState)
 - (void)swipeableTableViewCellDidEndScrolling:(SWTableViewCell *)cell;
 - (void)swipeableTableViewCell:(SWTableViewCell *)cell didScroll:(UIScrollView *)scrollView;
 - (void)swipeableTableViewCellDidScrolling:(SWTableViewCell *)cell;
+- (void)swipeableTableViewCellRightUtiltyDidScrolling:(SWTableViewCell *)cell;
 
 @end
 

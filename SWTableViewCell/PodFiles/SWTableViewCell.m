@@ -717,6 +717,10 @@ static NSString * const kTableViewPanState = @"state";
                 if (!shouldScroll)
                 {
                     scrollView.contentOffset = CGPointMake([self leftUtilityButtonsWidth], 0);
+                }else{
+                    if (self.delegate && [self.delegate respondsToSelector:@selector(swipeableTableViewCellRightUtiltyDidScrolling:)]) {
+                        [self.delegate swipeableTableViewCellRightUtiltyDidScrolling:self];
+                    }
                 }
             }
         }

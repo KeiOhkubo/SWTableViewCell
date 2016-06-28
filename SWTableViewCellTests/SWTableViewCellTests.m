@@ -1,9 +1,10 @@
 #import <Specta/Specta.h>
 #import <Expecta/Expecta.h>
 #import <FBSnapshotTestCase/FBSnapshotTestCase.h>
-#import <Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h>
+//#import <Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h>
 #import <OCMock/OCMock.h>
 #import "SWTableViewCell.h"
+#import "EXPMatchers+FBSnapshotTest.h"
 
 SpecBegin(SWTableViewCell)
 
